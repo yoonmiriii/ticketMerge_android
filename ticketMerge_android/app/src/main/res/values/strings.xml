@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">티켓머지</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="login_with">ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡor countinue withㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ</string>
+    <string name="artist_gender_member">%s / %s</string>
+    <string name="default_web_client_id">intense-idea-428107-d7</string>
+    <string name="txtTile">"<b>Title</b></string>
+    <string name="alert_title">선택하세요.</string>
+    <string-array name="alert_photo">
+        <item>카메라로 사진 찍기</item>
+        <item>앨범에서 사진 가져오기</item>
+    </string-array>
+
+
+</resources>

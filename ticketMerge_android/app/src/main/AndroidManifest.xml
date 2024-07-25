@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TicketMerge"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DetailBoardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FconcertActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FartistActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FgenreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailConcertActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FconcertListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FartistListActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.signin.internal.CLIENT_ID"
+            android:value="353336819876-io105107i6f2jjpdmonm23e468oae2o7.apps.googleusercontent.com" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.hani.ticketmerge.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/fileprovider" />
+        </provider>
+
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AddBoardActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

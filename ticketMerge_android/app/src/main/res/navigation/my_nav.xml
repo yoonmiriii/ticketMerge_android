@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.hani.ticketmerge.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/saerchFragment"
+        android:name="com.hani.ticketmerge.SearchFragment"
+        android:label="fragment_saerch"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/boardFragment"
+        android:name="com.hani.ticketmerge.BoardFragment"
+        android:label="fragment_board"
+        tools:layout="@layout/fragment_board" />
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.hani.ticketmerge.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_setting" />
+</navigation>

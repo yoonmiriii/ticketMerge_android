@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "353336819876",
+    "project_id": "intense-idea-428107-d7",
+    "storage_bucket": "intense-idea-428107-d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353336819876:android:b2526cea289ac0916a6631",
+        "android_client_info": {
+          "package_name": "com.hani.ticketmerge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbgHayWh_jDPfTjjh-3bwL1BsX2EJsoV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/baseline_home_24"
+        android:title="홈"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/searchFragment"
+        android:icon="@drawable/baseline_search_24"
+        android:title="검색"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/boardFragment"
+        android:icon="@drawable/baseline_text_snippet_24"
+        android:title="게시판"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/favoriteFragment"
+        android:icon="@drawable/baseline_favorite_24"
+        android:title="설정"
+        app:showAsAction="always" />
+</menu>

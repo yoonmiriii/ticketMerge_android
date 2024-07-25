@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="border_array">
+        <item>자유게시판</item>
+        <item>같이 가요</item>
+        <item>후기</item>
+    </string-array>
+</resources>

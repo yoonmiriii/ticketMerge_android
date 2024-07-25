@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgArtist"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/baseline_image_24" />
+
+    <TextView
+        android:id="@+id/artistText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:textColor="#000000" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/artistPic2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/baseline_image_24" />
+
+    <TextView
+        android:id="@+id/artistText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:textColor="#000000" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/artistPic3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/baseline_image_24" />
+
+    <TextView
+        android:id="@+id/artistText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25sp"
+        android:textColor="#000000" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/artistPic4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/baseline_image_24" />
+
+    <TextView
+        android:id="@+id/artistText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25sp"
+        android:textColor="#000000" />
+</LinearLayout>
